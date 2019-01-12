@@ -8,7 +8,7 @@ public class UITestsDay2 {
 
     @Test
     public void test001() {
-        String path = System.getProperty("user.dir") + "/src/test/resources/geckodriver";
+        String path = System.getProperty("user.dir") + "/src/test/resources/geckodriver.exe";
         System.setProperty("webdriver.gecko.driver", path);
 
         WebDriver driver = new FirefoxDriver();

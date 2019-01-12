@@ -312,7 +312,7 @@ public class DiceTests {
 
     @BeforeSuite
     public void setup(){
-        String path = System.getProperty("user.dir") + "/src/test/resources/geckodriver";
+        String path = System.getProperty("user.dir") + "/src/test/resources/geckodriver.exe";
         System.setProperty("webdriver.gecko.driver", path);
         driver = new FirefoxDriver();
     }
